@@ -1,0 +1,10 @@
+all:
+  vars:
+    ansible_user: ec2-user
+prod:
+  hosts:
+    client:
+      ansible_host: 172.31.22.115
+  vars:
+    ansible_password: admin
+    env: production
